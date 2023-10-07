@@ -34,5 +34,5 @@ MANAGARM_BUILD_DIR=$MANAGARM_BASE_DIR/build
 MANAGARM_SRC_DIR=$MANAGARM_BASE_DIR/src
 MANAGARM_ROOTFS_PATH=$MANAGARM_BASE_DIR/rootfs
 
-( cd $MANAGARM_BUILD_DIR; xbstrap download-tool-archive bootstrap-system-gcc system-gcc host-managarm-tools host-libtool host-automake-v1.11 host-automake-v1.15 host-llvm-toolchain host-cmake host-pkg-config host-protoc )
+( cd $MANAGARM_BUILD_DIR; xbstrap download-tool-archive bootstrap-system-gcc system-gcc kernel-gcc host-managarm-tools host-libtool host-automake-v1.11 host-automake-v1.15 host-llvm-toolchain host-cmake host-pkg-config host-protoc )
 
